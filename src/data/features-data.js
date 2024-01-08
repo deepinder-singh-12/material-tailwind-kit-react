@@ -1,28 +1,31 @@
 import {
-  ChatBubbleBottomCenterTextIcon,
+  CalendarIcon,
+  MapPinIcon,
+  CurrencyRupeeIcon,
+  ClockIcon
 } from "@heroicons/react/24/solid";
 
 export const featuresData = [
   {
     color: "gray",
-    title: "Awarded Agency",
-    icon: ChatBubbleBottomCenterTextIcon,
+    title: "Date and Time",
+    icon: CalendarIcon,
     description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+      "Monday, January 15 · 6 - 10pm EST",
   },
   {
-    color: "gray",
-    title: "Free Revisions",
-    icon: ChatBubbleBottomCenterTextIcon,
+    color: "blue",
+    title: "Location",
+    icon: MapPinIcon,
     description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+      "180 Orchard Street 15th Floor New York, NY 10002 United States",
   },
   {
-    color: "gray",
-    title: "Verified Company",
-    icon: ChatBubbleBottomCenterTextIcon,
+    color: "orange",//or this can be a timing card
+    title: "Timings",
+    icon: ClockIcon,
     description:
-      "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+      "4 hours",
   },
 ];
 
